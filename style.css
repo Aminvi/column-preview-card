@@ -1,0 +1,93 @@
+body{
+    font-family: "Lexend Deca";
+    font-weight: 400 ;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 17%;
+    padding-right: 17%;
+
+}
+section{
+    padding-right: 3%;
+    padding-left: 3%;
+    padding-top: 5% ;
+    padding-bottom: 5%;
+}
+h3{
+    font-family: "Big Shoulders Display";
+    font-weight: 700;
+    color: hsl(0, 0%, 95%);
+    margin-top: 30px;
+}
+.first{
+    background-color: hsl(31, 77%, 52%) ;
+    margin: 0px;
+    padding: 5%;
+}
+.second{
+    background-color: hsl(184, 100%, 22%);
+    margin: 0px;
+    padding: 5%;
+}
+.third{
+    background-color: hsl(179, 100%, 13%);
+    padding: 5%;
+}
+.btn{
+    border-radius: 30px;
+    padding-left: 7%;
+    padding-right: 7%;
+}
+.l{
+    margin: 0;
+    font-size: 90%;
+    font-weight: 400;
+}
+.o{
+    color:hsl(179, 100%, 13%);
+}
+.n{
+    color: hsl(184, 100%, 22%);
+}
+.e{
+    color: hsl(31, 77%, 52%) ;
+}
+.t{
+    margin-bottom: 100px;
+}
+@media (max-width: 768px ){
+    body{
+        padding-left: 7%;
+        padding-right: 7%;
+        padding-top: 10%;
+        padding-bottom: 10%;
+    }
+    .first{
+        align-items: center;
+       padding: 15%;
+    
+
+    }
+    .second{
+        padding: 15%;
+
+    }
+    .third{
+        padding: 15%;
+    }
+    .t{
+        margin-bottom: 20px;
+        margin-top: 20px;
+        
+    }
+    .btn{
+        font-size: 20px;
+        padding-left: 7%;
+        padding-right: 7%;
+    }
+    
+}
